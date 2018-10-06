@@ -204,10 +204,10 @@ function updateForView() {
                         theNumberCell.append("<img src='512100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 1024:
-                        theNumberCell.append("<img src='1024100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='1024100x100.jpg'style='max-width:100%;'/>");
                         break;
                     case 2048:
-                        theNumberCell.append("<img src='2048100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='2048100x100.jpg' style='max-width:100%;'/>");
                         break;
 
                     default:
