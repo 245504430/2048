@@ -177,31 +177,31 @@ function updateForView() {
                 // theNumberCell.text(board[i][j]);
                 switch (board[i][j]) {
                     case 2:
-                        theNumberCell.append("<img src='02100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='02100x100.jpg' style='max-width:100%;' />");
                         break;
                     case 4:
-                        theNumberCell.append("<img src='04100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='04100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 8:
-                        theNumberCell.append("<img src='08100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='08100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 16:
-                        theNumberCell.append("<img src='16100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='16100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 32:
-                        theNumberCell.append("<img src='32100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='32100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 64:
-                        theNumberCell.append("<img src='64100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='64100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 128:
-                        theNumberCell.append("<img src='128100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='128100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 256:
-                        theNumberCell.append("<img src='256100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='256100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 512:
-                        theNumberCell.append("<img src='512100x100.jpg' height='100' width='100'/>");
+                        theNumberCell.append("<img src='512100x100.jpg' style='max-width:100%;'/>");
                         break;
                     case 1024:
                         theNumberCell.append("<img src='1024100x100.jpg' height='100' width='100'/>");
